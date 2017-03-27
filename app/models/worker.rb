@@ -4,7 +4,6 @@ class Worker
         @dumper = dumper
         @service_encryption = service_encryption
         @args = args
-        puts
     end
 
     def subscribe(listener)
