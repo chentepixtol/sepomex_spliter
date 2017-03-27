@@ -1,4 +1,4 @@
-require 'rails/all'
+require 'test_helper'
 
 class EncryptionTest < ActiveSupport::TestCase
     test "text should be encrypted" do
