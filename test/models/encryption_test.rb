@@ -1,3 +1,5 @@
+require 'rails/all'
+
 class EncryptionTest < ActiveSupport::TestCase
     test "text should be encrypted" do
         encrypter = Encryption.new(

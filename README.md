@@ -1,5 +1,9 @@
 # README
 
+
+[![Build Status](https://secure.travis-ci.org/chentepixtol/sepomex_spliter.png?branch=master)](http://travis-ci.org/chentepixtol/sepomex_spliter)
+
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
