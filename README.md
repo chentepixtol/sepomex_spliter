@@ -1,28 +1,22 @@
 # README
 
+Sepomex Splitter [![Build Status](https://secure.travis-ci.org/chentepixtol/sepomex_spliter.png?branch=master)](http://travis-ci.org/chentepixtol/sepomex_spliter)
 
-[![Build Status](https://secure.travis-ci.org/chentepixtol/sepomex_spliter.png?branch=master)](http://travis-ci.org/chentepixtol/sepomex_spliter)
+You can run workers as follows 
 
+Filter postal codes of Ciudad de México
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+`bin/rails worker:state["Ciudad de México"]`
 
-Things you may want to cover:
+Filter postal codes of Guerrero
 
-* Ruby version
+`bin/rails worker:state["Guerrero"]`
 
-* System dependencies
+or any another state
 
-* Configuration
+Also you can negate the worker with `not_in_state`
 
-* Database creation
+Filter all postal code except of Ciudad de México
 
-* Database initialization
+`bin/rails worker:not_in_state["Ciudad de México"]`
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
