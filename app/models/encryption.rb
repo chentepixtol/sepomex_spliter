@@ -1,3 +1,6 @@
+require 'openssl'
+require 'base64'
+
 class Encryption
 
     def initialize(private_key_file, public_key_file, password)
